@@ -179,7 +179,7 @@ function App() {
                 className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group"
               >
                 {/* Replace this div with your <img> tag */}
-                <img src={`./assets/img_${item}.jpg`} />
+                <img src={`/assets/img_${item}.jpg`} />
               </div>
             ))}
           </div>
