@@ -173,15 +173,24 @@ function App() {
 
           {/* Gallery Grid - Add your images here */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {[1, 2, 3, 4, 5, 6].map((item) => (
-              <div
-                key={item}
-                className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group"
-              >
-                {/* Replace this div with your <img> tag */}
-                <img src={`src/assets/img_${item}.jpg`} />
-              </div>
-            ))}
+            <div className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group">
+              <img src="src/assets/img_1.jpg" />
+            </div>
+            <div className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group">
+              <img src="src/assets/img_2.jpg" />
+            </div>
+            <div className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group">
+              <img src="src/assets/img_3.jpg" />
+            </div>
+            <div className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group">
+              <img src="src/assets/img_4.jpg" />
+            </div>
+            <div className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group">
+              <img src="src/assets/img_5.jpg" />
+            </div>
+            <div className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group">
+              <img src="src/assets/img_6.jpg" />
+            </div>
           </div>
         </div>
       </section>
