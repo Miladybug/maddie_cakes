@@ -18,7 +18,7 @@ function App() {
           <div className="flex justify-between items-center h-16 md:h-20">
             {/* Logo Placeholder */}
             <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-pink-400 to-pink-300 bg-clip-text text-transparent">
-              Maddie's Cakes
+              Madcakes
             </div>
 
             {/* Desktop Navigation */}
@@ -130,14 +130,24 @@ function App() {
       >
         <div className="max-w-4xl mx-auto text-center z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-pink-400 to-pink-300 bg-clip-text text-transparent mb-4 md:mb-6">
-            Maddie's Cakes
+            Madcakes
           </h1>
-          <p className="text-xl sm:text-2xl md:text-3xl text-pink-400 italic mb-6 md:mb-8">
+          {/* <p className="text-xl sm:text-2xl md:text-3xl text-pink-400 italic mb-6 md:mb-8">
             [Your Tagline]
+          </p> */}
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed px-4">
+            Hello! I'm Madelynn, the girl behind Madcakes. I create custom cakes
+            that bring joy, using fresh, high-quality ingredients. I believe
+            that every cake should not only look stunning but also taste
+            amazing. I specialize in custom cakes for weddings, birthdays and
+            all special occasions. Order yours today!
           </p>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed px-4">
-            [Your description - Tell customers about your passion for cake
-            decorating and what makes your cakes special]
+            Hola! Soy Madelynn, la chica detrás de MadCakes. Creo pasteles
+            personalizados que traen felicidad, usando ingredientes frescos y de
+            alta calidad. Creo que cada pastal no solo debe verse impresionante
+            sino también ser rico. Me especializo en pasteles personalizados
+            para bodas, cumpleaños y toda ocasión especial. ¡Haz tu pedido hoy!
           </p>
           <button
             onClick={() => scrollToSection("contact")}
@@ -169,9 +179,7 @@ function App() {
                 className="aspect-square rounded-3xl bg-gradient-to-br from-pink-50 to-pink-100 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex items-center justify-center text-6xl md:text-7xl cursor-pointer overflow-hidden group"
               >
                 {/* Replace this div with your <img> tag */}
-                <span className="opacity-30 group-hover:scale-110 transition-transform duration-300">
-                  🎂
-                </span>
+                <img src={`src/assets/img_${item}.jpg`} />
               </div>
             ))}
           </div>
@@ -407,23 +415,19 @@ function App() {
             Let's create something beautiful together
           </p>
 
-          <p className="text-gray-600 text-base md:text-lg mb-8 md:mb-10 leading-relaxed">
-            [Add your contact intro text here]
-          </p>
-
           {/* Contact Info - Update with actual details */}
           <div className="space-y-4 md:space-y-6 mb-8 md:mb-10">
             <div className="flex items-center justify-center gap-3 text-base md:text-lg text-gray-600">
               <span className="text-2xl">📧</span>
-              <span>[your-email@example.com]</span>
+              <span>madelynnwarren@mail.weber.edu</span>
             </div>
             <div className="flex items-center justify-center gap-3 text-base md:text-lg text-gray-600">
               <span className="text-2xl">📱</span>
-              <span>[Your Phone Number]</span>
+              <span>801-703-0540</span>
             </div>
             <div className="flex items-center justify-center gap-3 text-base md:text-lg text-gray-600">
-              <span className="text-2xl">📍</span>
-              <span>[Your Location]</span>
+              <span className="text-2xl">📷</span>
+              <span>m_warren1227</span>
             </div>
           </div>
 
@@ -439,7 +443,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gradient-to-r from-pink-400 to-pink-300 text-white text-center py-6 md:py-8 px-4">
         <p className="text-sm md:text-base">
-          &copy; 2024 [Your Business Name]. Made with love and sugar ♡
+          &copy; 2025 Madcakes. Made with love and sugar ♡
         </p>
       </footer>
     </div>
